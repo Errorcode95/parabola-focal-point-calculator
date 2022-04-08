@@ -9,6 +9,13 @@ var A4 = parabolaDepth * 4
 
 output = X2 / A4
 
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(20, 20);
+ctx.quadraticCurveTo(20, 100, 200, 20);
+ctx.stroke(); 
+
 console.log ("Parabola Width: "+parabolaWidth)
 console.log ("Parabola Depth: "+parabolaDepth)
 console.log ("X: "+X)
