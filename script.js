@@ -10,7 +10,7 @@ var X2 = X * X
 var A4 = parabolaDepth * 4
 
 output = X2 / A4
-document.getElementById("output").innerHTML = output;
+document.getElementById('txt').innerHTML = output;
 console.log (output);
 
 /*
