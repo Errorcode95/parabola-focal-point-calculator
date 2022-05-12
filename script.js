@@ -13,7 +13,7 @@ output = X2 / A4
 document.getElementById('txt').innerHTML = output;
 console.log (output);
 
-/*
+
 //scaling calculator
 var xScale =  560 / parabolaWidth
 
@@ -31,4 +31,3 @@ ctx.beginPath();
 ctx.moveTo(300, parabolaDepth * xScale + 300);
 ctx.lineTo(300, output * xScale);
 ctx.stroke(); 
-*/
